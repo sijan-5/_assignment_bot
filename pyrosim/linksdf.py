@@ -18,7 +18,7 @@ class LINK_SDF:
 
         self.inertial  = INERTIAL_SDF()
 
-        self.geometry = GEOMETRY_SDF(type,size)
+        self.geometry = GEOMETRY_SDF(name,size)
 
         self.collision = COLLISION_SDF(self.geometry)
 
